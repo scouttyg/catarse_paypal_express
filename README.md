@@ -30,6 +30,11 @@ In Rails console, run this:
     Configuration.create!(name: "paypal_password", value: "PASSWORD")
     Configuration.create!(name: "paypal_signature", value: "SIGNATURE")
 
+If you don't want to do this, set ENV Variables with Foreman for:
+PAYPAL_USERNAME
+PAYPAL_PASSWORD
+PAYPAL_SIGNATURE
+
 ## Development environment setup
 
 Clone the repository:

@@ -4,9 +4,9 @@ en:
       review:
         paypal: 'PayPal'
         international:
-          section_title: 'You will be directed to the PayPal site to complete payment.'
+          section_title: 'You will be redirected to the PayPal site to complete payment.'
           user_document_label: 'CPF / CNPJ (only for Brazilians)'
-          button: 'Redirect to PayPal'
+          button: 'Pay with PayPal (only option)'
       checkout:
         paypal_cancel: "Your PayPal payment was canceled. Please try again."
         paypal_description: "Back project %{project_name} with %{value} (BRL)"
