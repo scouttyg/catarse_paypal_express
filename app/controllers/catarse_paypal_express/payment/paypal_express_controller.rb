@@ -56,7 +56,7 @@ module CatarsePaypalExpress::Payment
           ip: request.remote_ip,
           return_url: payment_success_paypal_express_url(id: backer.id),
           cancel_return_url: payment_cancel_paypal_express_url(id: backer.id),
-          currency_code: 'BRL',
+          currency_code: 'USD',
           description: t('paypal_description', scope: SCOPE, :project_name => backer.project.name, :value => backer.display_value),
           notify_url: payment_notifications_paypal_express_url(id: backer.id)
         })
